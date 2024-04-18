@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="chooseBrowserSuite">
+	<test thread-count="5" name="chromeBrowserTest">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="ParameterAnnotation.ChoseBrowser" />
+		</classes>
+	</test> 
+	<test thread-count="5" name="firefoxBrowserTest">
+		<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class name="ParameterAnnotation.ChoseBrowser" />
+		</classes>
+	</test>
+	<test thread-count="5" name="edgeBrowserTest">
+		<parameter name="browser" value="edge"></parameter>
+		<classes>
+			<class name="ParameterAnnotation.ChoseBrowser" />
+		</classes>
+	</test><!--
+	chooseBrowserTest -->
+</suite> <!--
+chooseBrowserSuite -->

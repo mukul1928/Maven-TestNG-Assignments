@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ComponentSuite">
+  <test thread-count="5" name="ComponentTest">
+	  <groups>
+		  <run>
+			  <include name="component"></include>
+		  </run>
+	  </groups>
+    <classes>
+      <class name="GroupingPackage.Grouping15"/>
+    </classes>
+  </test> <!-- ComponentTest -->
+</suite> <!-- ComponentSuite -->

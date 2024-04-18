@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Integration suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Login test cases(failed)">
+    <classes>
+      <class name="Jaya_Maven.Selenium_Maven.Two">
+        <methods>
+          <include name="flipkart_login"/>
+        </methods>
+      </class> <!-- Jaya_Maven.Selenium_Maven.Two -->
+    </classes>
+  </test> <!-- Login test cases(failed) -->
+</suite> <!-- Failed suite [Integration suite] -->

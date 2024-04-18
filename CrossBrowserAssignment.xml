@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Amazon Assignment Suite">
+	<test thread-count="5" name="Amazon Test cases">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="CrossBrowserAssignment.SearchProduct1" />
+			
+		</classes>
+	</test> <!--Amazon Test cases -->
+	
+	
+	<test thread-count="5" name="Amazon Test cases in firefox">
+		<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class name="CrossBrowserAssignment.SearchProduct1" />
+			
+		</classes>
+	</test>
+	
+	
+</suite> <!--Amazon Assignment Suite -->
