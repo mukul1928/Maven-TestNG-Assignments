@@ -4,7 +4,8 @@
   <test thread-count="5" name="smokeTest">
 	  <groups>
 		  <run>
-			  <include name="smoke"></include>
+			  <include name="regression"></include>
+			  <exclude name="smoke"></exclude>
 		  </run>
 	  </groups>
     <classes>

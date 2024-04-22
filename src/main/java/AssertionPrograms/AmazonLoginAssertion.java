@@ -40,9 +40,13 @@ public class AmazonLoginAssertion
 		
 		driver.findElement(By.id("signInSubmit")).click();
 		
-		//System.out.println(driver.getTitle());
+		WebElement search_box=driver.findElement(By.id("twotabsearchtextbox"));
+		search_box.sendKeys("watches");
 		
-		Assert.assertEquals(driver.getTitle(), "Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in");
+		Assert.assertTrue(search_box.isDisplayed());
+		
+		//System.out.println(driver.getTitle());
+		//Assert.assertEquals(driver.getTitle(), "Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in");
 	}
 	
 

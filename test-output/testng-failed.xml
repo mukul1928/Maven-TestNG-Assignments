@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="AssertionPrograms.AssertionMethods">
+      <class name="Listeners.Listeners_skippedtcs">
         <methods>
-          <include name="testcase_fail"/>
+          <include name="login"/>
+          <include name="logout"/>
         </methods>
-      </class> <!-- AssertionPrograms.AssertionMethods -->
+      </class> <!-- Listeners.Listeners_skippedtcs -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
