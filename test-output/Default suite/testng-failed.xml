@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Listeners.Listeners_skippedtcs">
+      <class name="Listeners.Testcases_Listeners">
         <methods>
-          <include name="login"/>
-          <include name="logout"/>
+          <include name="testcase2"/>
         </methods>
-      </class> <!-- Listeners.Listeners_skippedtcs -->
+      </class> <!-- Listeners.Testcases_Listeners -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
